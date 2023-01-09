@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  
+</head>
+<body>
+
+ <div class="index2">
+<div class="back-window" id="open-model3">
+  <span class="back"><i class="fa-solid fa-circle-arrow-left arrow"></i><span class="back1">Back</span></span>
+  <p class="new_page_title"></p>
+
+  <i class="fa-solid fa-circle-plus plus3"></i>
+</div>
+</div>
+
+
+<div id="blur-body">
+    <div class="box1">
+        <span class="s1">Tasks </span><span class="s2">List</span>
+      </div>
+    <div>
+      <div class="container2">
+            <!-- <button id="buttonOne"> <i class="fa-solid fa-circle-plus plus">Add New Task</i></button> -->
+  
+          <button class="t1" id="buttonTwo"> <i class="fa-solid fa-circle-plus plus"></i></button><span class="t1 sp">Add New Task</span> 
+          
+      </div>
+    </div>
+    <div id="parent">
+     <h1 style="color: white;" id="heading"> No Items in the List</h1>
+     <div id="popCard"></div>
+    </div>
+  </div>
+<!--  onclick="addTaskonScreen()" -->
+
+<div id="addBox" class="hidden">
+  <label id="labelMain">Add New List</label>
+  <input type="text" id="inputPop" placeholder="Add New List">
+  <div id="buttonDiv">
+  <button id="addButton">ADD</button>
+  <button id="closeButton" onclick="close()" >CLOSE</button>
+  </div>
+</div>
+<!-- onclick="close()" -->
+
+<div id="addList" class="hidden2">
+  <label id="labelMain">Add New Item to List</label>
+  <input type="text" id="inputListdata" placeholder="Add New List">
+  <div id="buttonDiv">
+  <button  id="addListBtn" >ADD</button>
+  <button id="closeListBtn" onclick="close2()">CLOSE</button>
+  </div>
+</div>
+<!-- onclick="addcontent(this) -->
+<div class="overlay hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>

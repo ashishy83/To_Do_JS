@@ -1,0 +1,352 @@
+
+body{
+    background-color: black;
+}
+/* #blur-body{
+  /* position: absolute; */
+
+/* }  */
+
+.index2{
+  display: none;
+}
+.container2 {
+    display: flex;
+    justify-content:flex-end;
+    height: 80px;
+    background-color: #F7F7F7;
+    padding-top: 2%;
+    border-radius: 10px;
+    
+  }
+  .blurCss{
+    filter: blur(5px);
+  }
+  .removeBlur{
+    filter: blur(0);
+  }
+  
+  .box1 {
+    display: flex;
+    height: 60px;
+    width: 180px;
+    font: bold 50px Inter;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    /* border: 2px solid black; */
+  }
+  
+  .s1 {
+    width: 115px;
+    /* height: 49px; */
+    text-align: left;
+    color: #424242;
+    font: bold 40px Inter;
+  }
+  
+  .s2 {
+    width: 120px;
+    /* height: 49px; */
+    color: #00A5EC;
+    text-align: right;
+    font: bold 40px Inter;
+  }
+  
+   .plus {
+    color: #00A5EC;
+    font-size: 45px;
+    text-decoration: none;
+     /* height: 50px; */
+      /* width: 50px; */
+     
+  }  
+
+  .t1 {
+    color: #00A5EC;
+    text-align: left;
+    opacity: 1;
+    border: none;
+    background: none;
+    font-size: large;
+    margin-bottom: 3%;
+  }
+  .sp{
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+
+
+
+  
+  a{
+    text-decoration: none;
+    color: black;
+    font: 20px Inter;
+  
+  }
+
+  #buttonOne{
+    border: none;
+    background: none;
+  }
+
+
+  #parent{
+    margin: 5%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 90%;
+  }
+  /* .child{
+    margin: 3%;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+  } */
+  /* #popCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  } */
+  #addBox{
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    width: 450px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    /* margin: 3%; */
+    /* display: none; */
+  }
+.hidden{
+  display: none;
+}
+  #labelMain{
+    /* margin-top: 15%; */
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  #inputPop{
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 60%;
+    height: 10%;
+  }
+  ::placeholder{
+    text-align: center;
+  }
+  #buttonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+  }
+
+  #addButton{
+    margin: 2%;
+    width: 80px;
+    width: 100px;
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  #closeButton{
+    margin: 2%;
+    width: 100px;
+    height: 40px;
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .col-4{
+    margin: 3%;
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .hed{
+    display: flex;
+    margin: 4%;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+
+  #popCard{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .fa-square-plus{
+    /* background-color: #00A5EC; */
+    font-size: 25px;
+    color: #00A5EC;
+  }
+  #btnn{
+    border: none;
+    background-color: white;
+  }
+  .fa-trash{
+    color: red;
+    font-size: 25px;
+  }
+
+  #btn-delete{
+    border: none;
+    background-color: white;
+  }
+
+  #addList{
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    width: 450px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin: 3%;
+    /* display: none; */
+  }
+  .hidden2{
+    display: none;
+  }
+
+  .lineTxtCss{
+    text-decoration: line-through;
+
+  }
+
+#addListBtn{
+  margin: 2%;
+  width: 80px;
+  width: 100px;
+  background-color: tomato;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#closeListBtn{
+  margin: 2%;
+  width: 100px;
+  height: 40px;
+  background-color: tomato;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px; 
+}
+
+#inputListdata{
+  margin-top: 5%;
+  border-radius: 10px;
+  width: 60%;
+  height: 10%;
+}
+
+.title{
+  margin-top: 10%;
+  text-align: center;
+  font-size:large;
+}
+
+.hr{
+  color: black;
+  size: 10px;
+  width: 95%;
+}
+
+.addItembtn{
+  border: none;
+  background-color: white;
+}
+
+.boxlist{
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back-window{
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    /* display: none; */
+}
+#open-model3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 5rem;
+  margin: auto;
+  /* visibility: hidden; */
+}
+.back1{
+  color: white;
+  cursor: pointer;
+  margin-top: 3%;
+  font-size: 20px;
+  text-align: right;
+
+}
+
+.arrow{
+  width: 30px;
+  height: 30px;
+  /* width: 50px;
+  height: 50px; */
+  font-size: 45px;
+  color: white;
+  cursor: pointer;
+
+}
+.plus3{
+  color: white;
+  opacity: 1;
+  font-size: 45px;
+  height: 50px;
+  width: 50px;
+}
+.back{
+  display: flex;
+  justify-content: space-between;
+  font-family: Inter;
+  width: 100px;
+}
+.new_page_title{
+  color:  white;
+  font-size: 4rem;
+}
